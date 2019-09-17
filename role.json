@@ -1,0 +1,21 @@
+{
+  "Role": {
+    "AssumeRolePolicyDocument": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": "sts:AssumeRole",
+          "Effect": "Allow",
+          "Principal": {
+            "Service": "lambda.amazonaws.com"
+          }
+        }
+      ]
+    },
+    "RoleId": "AROA3P5TAJHAWW25D3GEW",
+    "CreateDate": "2019-09-17T10:21:52Z",
+    "RoleName": "vault_clip_creator_2",
+    "Path": "/",
+    "Arn": "arn:aws:iam::790112520641:role/vault_clip_creator_2"
+  }
+}
